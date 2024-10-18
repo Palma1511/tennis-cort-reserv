@@ -8,7 +8,6 @@ export function Layout() {
             </nav>
             <main>
                 <div className="content">Содержимое страницы...</div>
-                {/* Добавьте больше контента, чтобы прокрутка работала */}
                 <div className="content">Содержимое страницы...</div>
                 <div className="content">Содержимое страницы...</div>
                 <div className="content">Содержимое страницы...</div>
