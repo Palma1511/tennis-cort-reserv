@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding-top: 80px;
+    /* Чтобы содержимое не заступало на заголовок */
+}
+
+.content {
+    height: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 2rem 0;
+}
+
+nav {
+    background-image: url(https://lifecitysport.by/wp-content/uploads/2023/12/slide_01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}

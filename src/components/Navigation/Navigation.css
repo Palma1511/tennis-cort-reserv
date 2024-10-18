@@ -1,0 +1,28 @@
+/* src/Header.css */
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    color: white;
+    z-index: 10;
+    user-select: none;
+}
+
+.header.fixed {
+    background-color: rgba(0, 0, 0, 1);
+    /* Непрозрачный фон */
+    padding: 10px 20px;
+    /* Изменение отступов при фиксации */
+}
+
+img {
+    width: 250px;
+    height: 50px;
+    margin: .6rem 2rem;
+}
