@@ -16,9 +16,7 @@
 
 .header.fixed {
     background-color: rgba(0, 0, 0, 1);
-    /* Непрозрачный фон */
     padding: 10px 20px;
-    /* Изменение отступов при фиксации */
 }
 
 img {
