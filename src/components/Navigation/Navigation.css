@@ -1,17 +1,17 @@
-/* src/Header.css */
 .header {
     position: fixed;
     display: flex;
     justify-content: center;
     top: 0;
-    left: 0;
+    left: -20%;
     right: 0;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.3s ease, padding 0.3s ease;
     color: white;
     z-index: 10;
     user-select: none;
+    font-size: calc(5px + 5 * (100vw - 320px) / 880);
 }
 
 .header.fixed {
@@ -20,7 +20,34 @@
 }
 
 img {
-    width: 250px;
-    height: 50px;
-    margin: .6rem 2rem;
+    width: 8%;
+    height: 5%;
+    margin: 1.7rem 10rem;
+}
+
+h2 {
+    position: relative;
+    margin-left: 2rem;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Толщина подчеркивания */
+    height: 2px;
+    /* Цвет подчеркивания */
+    background: orangered;
+    /* Начальное состояние: не видно */
+    transform: scaleX(0);
+    /* Начало анимации */
+    transform-origin: left;
+    /* Плавность анимации */
+    transition: transform 0.3s ease;
+}
+
+h2:hover::after {
+    transform: scaleX(1);
 }
