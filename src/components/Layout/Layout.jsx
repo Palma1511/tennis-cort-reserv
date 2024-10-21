@@ -1,3 +1,5 @@
+import { ButtonReg } from "../Button/ButtonReg.jsx";
+import { Card } from "../Card/Card.jsx";
 import { Navigation } from "../Navigation/Navigation";
 import "./Layout.css"
 export function Layout() {
@@ -6,9 +8,9 @@ export function Layout() {
             <nav>
                 <div className="back">
                     <div className="b-text">
-                        ТЕННИСТНЫЙ<span className="b-text-club">клуб</span>
-                        <p>Приглашаем на регулярные тренировки по теннису в Минске в спортивном центре Лайф Сити.</p>
-                        <button className="element-button"><span className="element-button-text">Записаться онлайн</span></button>
+                        <span className="b-text-tennis">ТЕННИСТНЫЙ</span><span className="b-text-club">клуб</span>
+                        <p>Приглашаем на регулярные тренировки по теннису в Санкт-Петербрге в спортивном центре Лайф Сити.</p>
+                        <ButtonReg />
                     </div>
                 </div>
             </nav>
@@ -16,7 +18,11 @@ export function Layout() {
 
 
             <main>
-                <div className="content">Содержимое страницы...</div>
+                <Card
+                    src='https://lifecitysport.by/wp-content/uploads/2023/12/service-04-365x450-1.jpg'
+                    title='АРЕНДА КОРТА'
+                    description='В центре Life City размещаются 3 корта размером 18х36 метров и 2 мини корта для обеспечения качественного учебно-тренировочного процесса в комфортных условиях.'
+                />
                 <div className="content">Содержимое страницы...</div>
                 <div className="content">Содержимое страницы...</div>
                 <div className="content">Содержимое страницы...</div>
