@@ -23,12 +23,12 @@ export function Navigation() {
     return (
         <header className={isSticky ? 'header fixed' : 'header'}>
             <img src="https://lifecitysport.by/wp-content/uploads/2023/12/logo-w.png" alt="image.png" />
-            <h2>Теннис</h2>
-            <h2>Сквош</h2>
-            <h2>Тренеры</h2>
-            <h2>О Нас</h2>
-            <h2>Новости</h2>
-            <h2>Контакты</h2>
+            <h2 className="nav-change">Теннис</h2>
+            <h2 className="nav-change">Сквош</h2>
+            <h2 className="nav-change">Тренеры</h2>
+            <h2 className="nav-change">О Нас</h2>
+            <h2 className="nav-change">Новости</h2>
+            <h2 className="nav-change">Контакты</h2>
         </header>
     )
 }

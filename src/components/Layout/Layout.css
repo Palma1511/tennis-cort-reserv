@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
 }
 
 main {
@@ -24,7 +25,7 @@ nav {
     background-image: url(https://lifecitysport.by/wp-content/uploads/2023/12/slide_01.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     min-height: 1000px;
 }
@@ -50,9 +51,9 @@ nav {
     left: 28%;
     z-index: 2;
     color: white;
-    text-align: center;
     font-weight: 800;
     font-style: italic;
+    text-align: center;
     font-size: 86px;
     place-items: center;
 }
@@ -61,7 +62,6 @@ nav {
     display: block;
     color: black;
     font-size: 56px;
-    font-style: italic;
     -webkit-text-stroke-width: 1px;
     stroke-width: 1px;
     -webkit-text-stroke-color: #ffffff;
@@ -80,6 +80,45 @@ nav {
 }
 
 .b-text-tennis {
-
     font-style: italic;
+}
+
+
+.main-text {
+    position: relative;
+    display: block;
+    font-size: 56px;
+    text-align: center;
+    place-items: center;
+    place-content: center;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.main-high-text {
+    color: orangered;
+}
+
+.main-low-text {
+    display: flex;
+    font-size: 16px;
+    position: inherit;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    place-content: center;
+    
+}
+
+.card-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 400px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 40%;
 }

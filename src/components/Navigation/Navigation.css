@@ -25,12 +25,12 @@ img {
     margin: 1.7rem 10rem;
 }
 
-h2 {
+.nav-change {
     position: relative;
     margin-left: 2rem;
 }
 
-h2::after {
+.nav-change::after {
     content: '';
     position: absolute;
     left: 0;
@@ -48,6 +48,6 @@ h2::after {
     transition: transform 0.3s ease;
 }
 
-h2:hover::after {
+.nav-change:hover::after {
     transform: scaleX(1);
 }
