@@ -1,0 +1,24 @@
+.rev-content {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rev-b-text span {
+    color: orangered;
+}
+
+.rev-b-text p {
+    margin-top: 0;
+}
+
+.rev-b-text h1 {
+    margin-bottom: 0;
+}
+
+.rev-b-text b {
+    font-weight: 900;
+}

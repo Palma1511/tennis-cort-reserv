@@ -1,0 +1,166 @@
+.content-footer {
+    background-image: url("https://lifecitysport.by/wp-content/uploads/2023/12/footer-bg-trans.png");
+    background-color: #10181A;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    height: 400px;
+}
+
+.contacts-footer, .menu-web, .last-photo {
+    margin: 0 30px;
+}
+
+.logo-img {
+    width: 320px;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.menu-web h1 {
+    margin-bottom: 0;
+}
+
+.menu-block p {
+    margin: 10px 0;
+}
+
+.contacts-footer span {
+    font-size: 26px;
+}
+
+.container-footer-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-block {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+}
+.menu-btn {
+    .element-button {
+        width: 150px;
+        height: 45px;
+        margin: 0;
+    }
+    .element-button-text {
+        font-size: 14px;
+    }
+}
+
+.foot-svgs {
+    width: 20px;
+    margin: 0;
+    height: 15px;
+}
+
+.soc-link {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.viber-link, .tel-link, .inst-link {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.viber-link {
+    background: #665CAC;
+}
+
+.tel-link {
+    background: #2CA5E0;
+}
+
+.inst-link {
+    background: #FF0356;
+}
+
+.last-photo h1 {
+    margin-bottom: 10px;
+}
+
+.last-photo-img {
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.line {
+    background: linear-gradient(90deg, rgba(255, 99, 71) 50%, #ffffff1b 50%);
+    height: 4px;
+    width: 400px
+}
+
+.line.photo {
+    width: 400px;
+}
+
+div .last-photo-img {
+    width: 400px;
+}
+
+.last-photo-img img{
+    object-fit: cover;
+    width: 130px;
+    height: 80px;
+    margin: 0;
+}
+
+.container-footer-second {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+.bottom-footer .develop {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    right: 400px;
+}
+
+.last-line {
+    background: #fff;
+    height: 4px;
+    width: 70vw;
+    margin-top: 20px;
+}
+
+.bottom-footer .shield {
+    width: 70vw;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    left: 400px;
+}
+
+.develop img {
+    width: 100px;
+    height: 25px;
+    margin: 0;
+
+}

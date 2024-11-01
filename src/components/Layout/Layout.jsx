@@ -1,7 +1,16 @@
 import { ButtonReg } from "../Button/ButtonReg.jsx";
 import { Card } from "../Card/Card.jsx";
+import { ClubNews } from "../ClubNews/ClubNews.jsx";
+import { Footer } from "../Footer/Footer.jsx";
+import { Info } from "../Info/Info.jsx";
 import { Navigation } from "../Navigation/Navigation";
+import { Rent } from "../Rent/Rent.jsx";
+import { Reviews } from "../Reviews/Reviews.jsx";
+import { Slider } from "../TestSlider/Slider.jsx";
+import { TrenerInfo } from "../TrenerInfo/TrenerInfo.jsx";
 import "./Layout.css"
+
+
 export function Layout() {
     return (
         <div>
@@ -48,7 +57,7 @@ export function Layout() {
                         src='https://lifecitysport.by/wp-content/uploads/2023/12/service-02-365x450-1.jpg'
                         title='ТРЕНЕР'
                         description='С помощью тренера вы сможете улучшить свои теннисные навыки, повысить физическую подготовленность и достичь новых спортивных высот.'
-                        svgsrc='./balls.svg'
+                        svgsrc='./balls-2.svg'
                     />
                     </li>
                     <li>
@@ -64,10 +73,17 @@ export function Layout() {
                 </ul>
                 
 
-                <div className="content">Содержимое страницы...</div>
-                <div className="content">Содержимое страницы...</div>
-                <div className="content">Содержимое страницы...</div>
-                <div className="content">Содержимое страницы...</div>
+                <div><Rent /></div>
+                <div className="info"><Info /></div>
+                <div className="content-space">
+                    <div className="content-btn">
+                        <ButtonReg  />
+                    </div>
+                </div>
+                <div className="content-trener"><TrenerInfo /></div>
+                <div className="reviews"><Reviews /></div>
+                <div className="club-news"><ClubNews /></div>
+                <div className="foot"><Footer /></div>
             </main>
         </div>
     )

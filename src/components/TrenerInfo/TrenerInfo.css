@@ -1,0 +1,49 @@
+.content-trener {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.svgs {
+    width: 20px;
+    margin: auto;
+}
+
+.treners {
+    display: flex;
+    text-align: start;
+    gap: 10px;
+}
+
+.treners-img {
+    min-width: 650px;
+    height: 320px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.trener-info {
+    border: 1px solid #cfcfcf;
+    width: 700px;
+    border-radius: 10px;
+    /* font-size: 16px; */
+    padding: 10px;
+}
+
+
+.trener-info .treners-img {
+    display: flex;
+}
+
+.trener-info li {
+    margin: 10px;
+}
