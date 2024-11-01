@@ -1,94 +1,95 @@
-.b-info-text span {
-    color: orangered;
+.b-info-text span { 
+    color: orangered; 
+} 
+.b-info-text p { 
+    font-weight: 700; 
+    position: relative; 
+    margin: 0 0; 
+} 
+ 
+.b-info-text h1 { 
+    margin-bottom: 0; 
+} 
+ 
+.e-img { 
+    width: 60px; 
+    position: relative; 
+    top: 20px; 
+} 
+ 
+.contents { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;   
+    width: 50%; 
+    left: 0; 
+    margin: auto; 
+    font-size: 19px; 
+     
+} 
+ 
+.contents p { 
+    font-size: 16px; 
+} 
+ 
+.elements { 
+    width: 50%; 
+    display: flex; 
+    position: relative; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+     
+} 
+ 
+.element-center img{ 
+    width: 550px; 
+    height: auto; 
+    margin: 0 50px; 
+} 
+ 
+.infos { 
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    width: 500px; 
+} 
+ 
+.e-l-bottom, .e-l-top { 
+    align-items: start; 
+    display: flex; 
+    flex-direction: row; 
+    margin: 30px; 
+} 
+ 
+.e-r-bottom, .e-r-top{ 
+    align-items: start; 
+    display: flex; 
+    flex-direction: row-reverse; 
+    margin: 30px; 
+} 
+ 
+ 
+ 
+.infos img { 
+    position: relative; 
+    align-items: start; 
+    margin: 20px; 
+    top: -20px; 
+} 
+ 
+.element-left{ 
+    position: relative; 
+    text-align: start;  
+} 
+ 
+.element-right { 
+    position: relative; 
+    text-align: end; 
+} 
+.elements { 
+    position: relative; 
+    text-align: center; 
 }
-.b-info-text p {
-    font-weight: 700;
-    position: relative;
-    margin: 0 0;
-}
-
-.b-info-text h1 {
-    margin-bottom: 0;
-}
-
-.e-img {
-    width: 60px;
-    position: relative;
-    top: 20px;
-}
-
-.contents {
-    display: flex;
-    
-    margin: auto;
-    font-size: 19px;
-    
-}
-
-.contents p {
-    font-size: 16px;
-}
-
-.elements {
-    width: 100%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    
-}
-
-.element-center img{
-    width: 550px;
-    height: auto;
-}
-
-.infos {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-}
-
-.e-l-bottom, .e-l-top {
-    align-items: start;
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
-}
-
-.e-r-bottom, .e-r-top{
-    align-items: start;
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 30px;
-}
-
-
-
-.infos img {
-    position: relative;
-    align-items: start;
-    margin: 20px;
-    top: -20px;
-}
-
-.element-left{
-    position: relative;
-    text-align: start; 
-}
-
-.element-right {
-    position: relative;
-    text-align: end;
-}
-.elements {
-    position: relative;
-    text-align: center;
-}
-
-
-
-
