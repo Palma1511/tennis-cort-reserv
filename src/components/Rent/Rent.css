@@ -85,7 +85,7 @@
 
 .first-img {
   width: 70%;
-  background-image: url("./rocket-rent.jpg");
+  background-image: url("https://lifecitysport.by/wp-content/uploads/2023/12/grid-01-1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +94,7 @@
 .second-img {
   width: 30%;
   height: 400px;
-  background-image: url("./house-rent.jpg");
+  background-image: url("https://lifecitysport.by/wp-content/uploads/2023/12/img_6474-min-1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +103,7 @@
 .third-img {
   width: 70%;
   height: 400px;
-  background-image: url("./cort-rent.jpg");
+  background-image: url("https://lifecitysport.by/wp-content/uploads/2023/12/img_6050.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
